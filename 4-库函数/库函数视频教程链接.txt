@@ -1,0 +1,11 @@
+STM32库函数视频教程链接：
+https://www.bilibili.com/video/BV1VN411e7JE/?share_source=copy_web&vd_source=811c04a3f1d6e1e690aa2351ac85a84d
+
+Python库函数教程视频链接：
+https://www.bilibili.com/video/BV1Mc411F7aK/?share_source=copy_web&vd_source=811c04a3f1d6e1e690aa2351ac85a84d
+
+Arudino库函数教程视频链接：
+https://www.bilibili.com/video/BV1VX4y1J7ku/?share_source=copy_web&vd_source=811c04a3f1d6e1e690aa2351ac85a84d
+
+ROS库函数教程视频链接：
+ https://www.bilibili.com/video/BV1wm4y1p75A/?share_source=copy_web&vd_source=811c04a3f1d6e1e690aa2351ac85a84d

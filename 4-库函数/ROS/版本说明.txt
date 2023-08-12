@@ -1,0 +1,3 @@
+c++版本基于socketcan接口的USB转CAN模块实现（cando模块），支持更高的通信速率；
+python版本基于uart接口的USB转CAN模块实现（蓝色透明外壳），使用方式更贴近库函数；
+canopen版本仅支持定制版电机固件，支持canopen标准DS301协议；

@@ -1,0 +1,37 @@
+<launch>
+    <!-- 
+        This launchfile expects two virtual can interfaces, vcan0 and vcan1. One node sends messages received
+        on vcan0 to the ros topic received_messages, another node passes the messages received here to vcan1.
+
+        With the can-utils tools you can then use:
+            cangen vcan0
+
+        to create random frames on vcan0 and:
+            candump vcan0 vcan1
+
+        to show data from both busses to see that the messages end up on vcan1 as well.
+        
+    -->
+    <node pkg="socketcan_bridge" type="socketcan_bridge_node" name="socketcan_bridge_node" output="screen">
+    </node>
+    <node pkg="drempower" type="state_subscriber_node" name="state_subscriber_node" output="screen">
+    </node>
+    <!-- <node pkg="drempower" type="tp_subscriber_node" name="tp_subscriber_node" output="screen">
+    </node>  -->
+    <!-- <node pkg="drempower" type="pp_subscriber_node" name="pp_subscriber_node" output="screen">
+    </node> -->
+    <!-- <node pkg="drempower" type="fp_subscriber_node" name="fp_subscriber_node" output="screen">
+    </node>  -->
+    <!-- <node pkg="drempower" type="pv_subscriber_node" name="pv_subscriber_node" output="screen">
+    </node> -->
+    <!-- <node pkg="drempower" type="fv_subscriber_node" name="fv_subscriber_node" output="screen">
+    </node>  -->
+    <!-- <node pkg="drempower" type="pt_subscriber_node" name="pt_subscriber_node" output="screen">
+    </node> --> 
+    <!-- <node pkg="drempower" type="ft_subscriber_node" name="ft_subscriber_node" output="screen">
+    </node>  -->
+    <node pkg="drempower" type="ip_subscriber_node" name="ip_subscriber_node" output="screen">
+    </node>
+    <node pkg="drempower" type="motor_test_node" name="motor_test_node" output="screen">
+    </node>
+</launch>

@@ -1,0 +1,11 @@
+上位机软件使用视频教程链接：
+【大然科技-DrEmpower机器人一体化关节电机上位机功能演示视频】 https://www.bilibili.com/video/BV12W4y1o7V2/?share_source=copy_web&vd_source=811c04a3f1d6e1e690aa2351ac85a84d
+
+
+linux版本上位机软件下载链接：
+
+1-linux版本(x64平台-双系统、虚拟机)上位机可通过以下链接进行下载：
+https://dr-app-store.oss-cn-hangzhou.aliyuncs.com/Dr_Actuator_Terminal%20v2.0(linux%E7%89%88%E6%9C%AC-x64%E5%B9%B3%E5%8F%B0).zip?OSSAccessKeyId=LTAImxYOOrLJiJF4&Expires=37686132223&Signature=jXytcQaWTqYSP%2FPjvlyKtAgLm%2BQ%3D
+
+2-linux版本(arm64平台-jetson nano等)上位机可通过以下链接进行下载：
+https://dr-app-store.oss-cn-hangzhou.aliyuncs.com/Dr_Actuator_Terminal%20v2.0(linux%E7%89%88%E6%9C%AC-arm64%E5%B9%B3%E5%8F%B0).zip?OSSAccessKeyId=LTAImxYOOrLJiJF4&Expires=361686132423&Signature=o9hgGkzufnog2V8jqmoVO3X8XBo%3D

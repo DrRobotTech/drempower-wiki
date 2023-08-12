@@ -1,0 +1,24 @@
+<launch>
+    <node pkg="DrEmpower_can" type="estop.py" name="e_stop_one_actuator" output="screen"/>
+    <node pkg="DrEmpower_can" type="set_angle.py" name="set_angle_one_actuator" output="screen"/>
+    <node pkg="DrEmpower_can" type="step_angle.py" name="step_angle_one_actuator" output="screen"/>
+    <node pkg="DrEmpower_can" type="set_speed.py" name="set_speed_one_actuator" output="screen"/>
+    <node pkg="DrEmpower_can" type="set_torque.py" name="set_torque_one_actuator" output="screen"/>
+    <node pkg="DrEmpower_can" type="set_id.py" name="set_id_one_actuator" output="screen"/>
+    <node pkg="DrEmpower_can" type="get_state.py" name="get_state_one_actuator" output="screen"/>
+    <node pkg="DrEmpower_can" type="get_id.py" name="get_id_one_actuator" output="screen"/>
+    <node pkg="DrEmpower_can" type="get_volcur.py" name="get_volcur_one_actuator" output="screen"/>
+    <node pkg="DrEmpower_can" type="read_property.py" name="read_property_one_actuator" output="screen"/>
+    <node pkg="DrEmpower_can" type="set_uart_baud_rate.py" name="set_baud_rate_one_actuator" output="screen"/>
+    <node pkg="DrEmpower_can" type="set_mode.py" name="set_mode_one_actuator" output="screen"/>
+    <node pkg="DrEmpower_can" type="set_zero_position.py" name="set_zero_position_one_actuator" output="screen"/>
+    <node pkg="DrEmpower_can" type="write_property.py" name="write_property_one_actuator" output="screen"/>
+    <node pkg="DrEmpower_can" type="clear_error.py" name="clear_error_one_actuator" output="screen"/>
+    <node pkg="DrEmpower_can" type="dump_error.py" name="dump_error_one_actuator" output="screen"/>
+    <node pkg="DrEmpower_can" type="impedance_control.py" name="impedance_control_one_actuator" output="screen"/>
+
+    <node pkg="DrEmpower_can" type="set_angles.py" name="set_angles_more_actuator" output="screen"/>
+    <node pkg="DrEmpower_can" type="set_speeds.py" name="set_speeds_more_actuator" output="screen"/>
+    <node pkg="DrEmpower_can" type="set_torques.py" name="set_torques_more_actuator" output="screen"/>
+    <node pkg="DrEmpower_can" type="step_angles.py" name="step_angles_more_actuator" output="screen"/>
+</launch>
